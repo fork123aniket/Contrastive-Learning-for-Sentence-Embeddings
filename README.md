@@ -1,4 +1,4 @@
-# Contrastive-Learning-for-Sentence-Embeddings
+# Contrastive Learning for Sentence Embeddings
 This repository provides a simple code to implement unsupervised contrastive learning framework for generating sentence embeddings from the paper "[SimCSE: Simple Contrastive Learning of Sentence Embeddings](https://arxiv.org/abs/2104.08821)".
 ## Setup Environment Requirements
 - `Python 3.9`
