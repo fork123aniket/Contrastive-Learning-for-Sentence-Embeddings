@@ -60,7 +60,7 @@ dataset = tf.data.Dataset.from_tensor_slices((input_ids, attention_mask, token_t
 dataset = (dataset.cache().repeat().batch(batch_size).prefetch(tf.data.AUTOTUNE))
 datasetGen = iter(dataset)
 
-inp_id = tf.keras.layers.Input(shape=(input_ids.shape[1],), batch_size=batch_size, name='input_id', dtype='int32')  # batch_size=batch_size,
+inp_id = tf.keras.layers.Input(shape=(input_ids.shape[1],), batch_size=batch_size, name='input_id', dtype='int32')
 att_mask = tf.keras.layers.Input(shape=(attention_mask.shape[1],), batch_size=batch_size, name='masked_id', dtype='int32')
 t_id = tf.keras.layers.Input(shape=(token_type_ids.shape[1],), batch_size=batch_size, name='input_token_id', dtype='int32')
 
