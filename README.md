@@ -16,6 +16,7 @@ Dataset used can be downloaded directly by using the command, written in ***data
 - All hyperparamters to control model training and the paths to input and output data directories are provided in the given `main.py` file. The values of these hyperparameters can be altered to see how the approach performs in different hyperparameter settings.
 - `model.py` file contains the implemented unsupervised contrastive learning-based language model approach that is being imported to `main.py` file in order to train and test the same approach.
 - This unsupervised contrastive learning approach can also be extended to perform text similarity using the preTrained language model, the example of which can be found in `main.py` file.
+- The average loss for the trained model is printed after every epoch.
 ## Text Similarity
 ### Input Sentences
 ```
