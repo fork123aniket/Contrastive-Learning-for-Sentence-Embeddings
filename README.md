@@ -13,7 +13,7 @@ This repository provides a simple code to implement unsupervised contrastive lea
 Dataset used can be downloaded directly by using the command, written in ***data/data.txt*** file, in Windows PowerShell. The dataset comprises 1 million sentences randomly sampled from English Wikipedia. While running the code, ensuring that the data folder has ***wiki1m_for_simcse.txt*** file is required.
 ### Training
 - To train the unsupervised contrastive learning approach, run `main.py`.
-- All hyperparamters to control model training and the paths to input and output data directories are provided in the given `main.py` file. The values of these hyperparameters can be altered to see how the approach performs in different hyperparameter settings.
+- All hyperparameters to control model training and the paths to input and output data directories are provided in the given `main.py` file. The values of these hyperparameters can be altered to see how the approach performs in different hyperparameter settings.
 - `model.py` file contains the implemented unsupervised contrastive learning-based language model approach that is being imported to `main.py` file in order to train and test the same approach.
 - This unsupervised contrastive learning approach can also be extended to perform text similarity using the preTrained language model, the example of which can be found in `main.py` file.
 - The average loss for the trained model is printed after every epoch.
